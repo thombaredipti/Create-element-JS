@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+        }
+     
+    </style>
+</head>
+<body>
+
+    <div id="myimage"></div>
+
+
+    <script>
+        
+var img = document.createElement('img');
+img.src="https://images.unsplash.com/photo-1719548191729-b92231e66c3e?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+img.alt= "example img"
+img.width= 500;
+img.height= 700;
+document.getElementById('myimage').appendChild(img)
+    
+    </script>
+
+</body> 
+</html>
